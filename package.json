@@ -1,0 +1,30 @@
+{
+  "name": "gigabyte-airdrop-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Gigabyte airdrop campaign with auto-withdrawals and referral tracking",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "airdrop",
+    "crypto",
+    "web3",
+    "telegraf"
+  ],
+  "author": "Exotic Co.",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "dotenv-safe": "^9.1.0",
+    "joi": "^17.13.3",
+    "mongodb": "^5.9.2",
+    "pino": "^9.6.0",
+    "telegraf": "^4.16.3",
+    "telegraf-ratelimit": "^2.0.0",
+    "web3": "^4.2.2"
+  }
+}
